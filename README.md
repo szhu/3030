@@ -1,7 +1,7 @@
 %%30%30
 =======
 
-Mouse your way through the map without touching the walls! (Google Chrome only)
+Mouse your way through the map without touching the trees! (Google Chrome only)
 
 **start here!**
 
