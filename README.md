@@ -30,6 +30,8 @@ Mouse your way through the map without touching the walls! (Google Chrome only)
 
 **finish here!**
 
+Is the game not working for you for some reason? [Here's what it's supposed to look like.](http://cl.ly/11153b1k3i3w)
+
 
 What's this?
 ------------
