@@ -3,6 +3,8 @@
 
 Mouse your way through the map without touching the walls! (Google Chrome only)
 
+**start here!**
+
 <!-- GAME -->
 [🌲][dead] 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead]&nbsp;  
 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead]&nbsp;  
@@ -21,8 +23,13 @@ Mouse your way through the map without touching the walls! (Google Chrome only)
 [🌲][dead] 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead]&nbsp;  
 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead]&nbsp;  
 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead]&nbsp;  
+[🌲][dead] [🌲][dead] [🌲][dead] 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead]&nbsp;  
+[🌲][dead] [🌲][dead] [🌲][dead] 🍭 [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead] [🌲][dead]&nbsp;  
 [dead]: http://github.com/%%30%30
 <!-- GAME -->
+
+**finish here!**
+
 
 What's this?
 ------------
