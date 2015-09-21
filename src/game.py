@@ -12,8 +12,8 @@ def get_between_sep(fname, sep):
 
 
 table = {
-    ' ': '[<img width="20" src="src/u1f43b.png">][path]',
-    '.': '[<img width="20" src="src/u1f332.png">][dead]',
+    ' ': '[<img width="20" src="src/u1f43b.png">][ohai]',
+    '.': '[<img width="20" src="src/u1f332.png">][onoe]',
 }
 
 
@@ -23,8 +23,8 @@ def make_game_iter(iter):
         out_line = ' '.join(table[char] for char in in_line)
         yield out_line + '  '
 
-    yield '[path]: http://www.berkeley.edu/'
-    yield '[dead]: http://www.stanford.edu/%%30%30'
+    yield '[ohai]: http://www.berkeley.edu/'
+    yield '[onoe]: http://www.stanford.edu/%%30%30'
 
 
 def make_game(fname):
