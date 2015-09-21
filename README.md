@@ -37,7 +37,9 @@ Sorry, looks like CloudApp took this down for exceeding bandwidth (1000 views/ho
 What's this?
 ------------
 
-Currently, Google Chrome [has a bug](https://code.google.com/p/chromium/issues/detail?id=533361) that causes it to crash when trying to load certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, Chrome also tries to pre-load URLs when you hover over links, which can cause the tab to crash.
+Currently, Google Chrome [has a bug](https://code.google.com/p/chromium/issues/detail?id=533361) that causes it to crash when trying to understand certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, when you hover over links, Chrome also tries to ~~pre-load~~ understand the linked URL, which can cause the tab to crash.
+
+(This happens before Chrome even tries to load the URL – [thanks devs for pointing this out](https://code.google.com/p/chromium/issues/detail?id=533361#c36)!)
 
 Happy mazing!
 
