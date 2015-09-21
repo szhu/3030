@@ -1,7 +1,7 @@
 %%30%30: A Game
 ===============
 
-Mouse your way through the map without touching the deadly trees! (Google Chrome only)
+Mouse your way through the map without touching the deadly trees! (Google Chrome and Chromium-based browsers only)
 
 **start here!**
 
