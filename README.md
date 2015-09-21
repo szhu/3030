@@ -1,5 +1,5 @@
-%%30%30
-=======
+%%30%30: A Game
+===============
 
 Mouse your way through the map without touching the deadly trees! (Google Chrome only)
 
@@ -31,13 +31,17 @@ Mouse your way through the map without touching the deadly trees! (Google Chrome
 
 **finish here!**
 
-Is the game not working for you for some reason? [Here's what it's supposed to look like.](http://cl.ly/11153b1k3i3w)  
+Not on Chrome? Not on desktop? Is the game not working for you for some other reason?  
+Here's what it's supposed to look like:
+
+[![Game screencast](http://i.imgur.com/Rxsqw5n.gif)](http://imgur.com/Rxsqw5n)
 
 
-What's this?
-------------
 
-Currently, Google Chrome [has a bug](https://code.google.com/p/chromium/issues/detail?id=533361) that causes it to crash when trying to understand certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, when you hover over links (in this case, whenever you touch a tree), Chrome also tries to ~~pre-load~~ understand the linked URL, which can cause the tab to crash.
+What's this about?
+------------------
+
+Currently, Google Chrome [has a bug](https://code.google.com/p/chromium/issues/detail?id=533361) that causes it to crash when trying to understand certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, when you hover over links (the trees), Chrome also tries to ~~pre-load~~ understand the linked URL, which can cause the tab to crash.
 
 (This happens before Chrome even tries to load the URL – [thanks devs for pointing this out](https://code.google.com/p/chromium/issues/detail?id=533361#c36)!)
 
@@ -54,7 +58,7 @@ The game in this readme is generated automatically from the files in [`src`](src
 - To edit the game map, edit [`src/game.map`](src/game.map).  
   Recommended: use Sublime Text and use overwrite mode (⌥⌘O​ on Mac).
 - To edit the generator code, including which pictures appear, edit [`src/game.py`](src/game.py).
-- Then: `cd src` and `make`!
+- When you're done editing the source files: `cd src` and `make`!
 
 
 Credits & License
