@@ -67,6 +67,8 @@ Further reading
  - See [Hacker News](https://news.ycombinator.com/item?id=10249362) for a lively discussion on whether wrapper apps can be considered native.
  - [The Next Web](http://thenextweb.com/apps/2015/09/21/this-stupid-game-turns-a-major-chrome-bug-into-fun/) calls this game "stupid." No u. We agree that it's fun though.
  - On Reddit, [this](https://www.reddit.com/r/programming/comments/3lqied/3030_a_game/) keeps [being](https://www.reddit.com/r/programming/comments/3lrrtr/google_chromes_3030_the_game/) posted onto r/programming [and deleted for being off-topic](https://www.reddit.com/r/programming/comments/3lrrtr/google_chromes_3030_the_game/cv8se1r).
+ - Ohai Berkeley CS10!  
+   <img src="https://cloud.githubusercontent.com/assets/1570168/10001731/1716c086-6058-11e5-9986-5b75354503fc.jpg" width="400">
 
 
 Contributing
