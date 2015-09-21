@@ -4,9 +4,8 @@
 Mouse your way through the map without touching the deadly trees!
 (Chrome, Opera, [etc.](#whats-this-about) only)
 
-| WARNING: Do you have important, unsaved work open in other tabs?           |
-|:-------------------------------------------------------------------------- |
-| You need to close this tab RIGHT NOW. Go save your work. Come back. Enjoy! |
+**WARNING:** Do you have important, unsaved work open in other tabs?  
+You need to close this tab RIGHT NOW. Go save your work. Come back. Enjoy!
 
 
 **start here!**
