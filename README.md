@@ -30,8 +30,7 @@ Mouse your way through the map without touching the trees! (Google Chrome only)
 
 **finish here!**
 
-Is the game not working for you for some reason? [~~Here's what it's supposed to look like.~~](http://cl.ly/11153b1k3i3w)  
-Sorry, looks like CloudApp took this down for exceeding bandwidth (1000 views/hour!). I'm looking into hosting it elsewhere.
+Is the game not working for you for some reason? [Here's what it's supposed to look like.](http://cl.ly/11153b1k3i3w)  
 
 
 What's this?
