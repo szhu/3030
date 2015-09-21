@@ -1,7 +1,13 @@
 %%30%30: A Game
 ===============
 
-Mouse your way through the map without touching the deadly trees! (Google Chrome only)
+Mouse your way through the map without touching the deadly trees!
+(Chrome, Opera, [etc.](#whats-this-about) only)
+
+| WARNING: Do you have important, unsaved work open in other tabs?           |
+|:-------------------------------------------------------------------------- |
+| You need to close this tab RIGHT NOW. Go save your work. Come back. Enjoy! |
+
 
 **start here!**
 
@@ -41,11 +47,27 @@ Here's what it's supposed to look like:
 What's this about?
 ------------------
 
-Currently, Google Chrome [has a bug](https://code.google.com/p/chromium/issues/detail?id=533361) that causes it to crash when trying to understand certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, when you hover over links (the trees), Chrome also tries to ~~pre-load~~ understand the linked URL, which can cause the tab to crash.
+Currently, Google Chrome and some other apps* [have a bug](https://code.google.com/p/chromium/issues/detail?id=533361) that causes them to crash when trying to understand certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, Chrome tries to understand the link not only when you navigate to it, but also when you hover over links (the trees). That's why causing the hovering over the trees will make Chrome crash.
 
-(This happens before Chrome even tries to load the URL – [thanks devs for pointing this out](https://code.google.com/p/chromium/issues/detail?id=533361#c36)!)
+This is not a bug with loading the page at the URL, but with merely translating a URL from a non-standard form to a standard one (canonicalization) – [thanks devs for pointing this out](https://code.google.com/p/chromium/issues/detail?id=533361#c36)!
+
+\* This Chromium bug affects all Chromium-based apps, including:
+
+ - [Google Chrome](http://www.google.com/chrome/)
+ - [Chromium](https://www.chromium.org/)
+ - [Opera](http://www.opera.com/)
+ - [Electron ("Atom Shell")](http://electron.atom.io/)-based apps, such as [Atom](https://atom.io/) and [Slack](https://slack.com/)
 
 Happy mazing!
+
+
+Further reading
+---------------
+
+ - Was this too easy? Are you a masochist? Someone else made this: [linkofdeath.com](http://linkofdeath.com/)
+ - See [Hacker News](https://news.ycombinator.com/item?id=10249362) for a lively discussion on whether wrapper apps can be considered native.
+ - [The Next Web](http://thenextweb.com/apps/2015/09/21/this-stupid-game-turns-a-major-chrome-bug-into-fun/) calls this game "stupid." No u. We agree that it's fun though.
+ - On Reddit, [this](https://www.reddit.com/r/programming/comments/3lqied/3030_a_game/) keeps [being](https://www.reddit.com/r/programming/comments/3lrrtr/google_chromes_3030_the_game/) posted onto r/programming [and deleted for being off-topic](https://www.reddit.com/r/programming/comments/3lrrtr/google_chromes_3030_the_game/cv8se1r).
 
 
 Contributing
@@ -53,7 +75,7 @@ Contributing
 
 Have a better maze design? Want to report on the status of the bug? Issues and PRs are welcome!
 
-The game in this readme is generated automatically from the files in [`src`](src).
+The game code in this readme is generated automatically from the files in [`src`](src).
 
 - To edit the game map, edit [`src/game.map`](src/game.map).  
   Recommended: use Sublime Text and use overwrite mode (⌥⌘O​ on Mac).
