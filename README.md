@@ -37,7 +37,7 @@ Is the game not working for you for some reason? [Here's what it's supposed to l
 What's this?
 ------------
 
-Currently, Google Chrome [has a bug](https://code.google.com/p/chromium/issues/detail?id=533361) that causes it to crash when trying to understand certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, when you hover over links, Chrome also tries to ~~pre-load~~ understand the linked URL, which can cause the tab to crash.
+Currently, Google Chrome [has a bug](https://code.google.com/p/chromium/issues/detail?id=533361) that causes it to crash when trying to understand certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, when you hover over links (in this case, whenever you touch a tree), Chrome also tries to ~~pre-load~~ understand the linked URL, which can cause the tab to crash.
 
 (This happens before Chrome even tries to load the URL – [thanks devs for pointing this out](https://code.google.com/p/chromium/issues/detail?id=533361#c36)!)
 
