@@ -49,6 +49,13 @@ Contributing
 
 Have a better maze design? Want to report on the status of the bug? Issues and PRs are welcome!
 
+The game in this readme is generated automatically from the files in [`src`](src).
+
+- To edit the game map, edit [`src/game.map`](src/game.map).  
+  Recommended: use Sublime Text and use overwrite mode (⌥⌘O​ on Mac).
+- To edit the generator code, including which pictures appear, edit [`src/game.py`](src/game.py).
+- Then: `cd src` and `make`!
+
 
 Credits & License
 -----------------
