@@ -14,6 +14,10 @@ def get_between_sep(fname, sep):
 table = {
     ' ': '[<img width="20" src="src/u1f43b.png">][ohai]',
     '.': '[<img width="20" src="src/u1f332.png">][onoe]',
+    '1': '',
+    '2': '',
+    '3': '',
+    '4': '',
 }
 
 
