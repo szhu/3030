@@ -20,8 +20,11 @@ table = {
 def make_game_iter(iter):
     for in_line in iter:
         in_line = in_line.rstrip('\n')
-        out_line = ' '.join(table[char] for char in in_line)
-        yield out_line + '  '
+        if in_line.startswith('#'):
+            yield in_line[1:].lstrip(' ')
+        else:
+            out_line = ' '.join(table[char] for char in in_line)
+            yield out_line + '  '
 
     yield '[ohai]: http://www.berkeley.edu/'
     yield '[onoe]: http://www.stanford.edu/%%30%30'
