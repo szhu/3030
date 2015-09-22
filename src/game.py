@@ -14,10 +14,10 @@ def get_between_sep(fname, sep):
 table = {
     ' ': '[<img width="20" src="src/u1f43b.png">][ohai]',
     '.': '[<img width="20" src="src/u1f332.png">][onoe]',
-    '1': 'Stay with the bears!',
-    '2': 'Ok, that was easy enough, let\'s step it up',
-    '3': 'Lets make it even harder...',
-    '4': 'Good luck!',
+    '1': '__Stay with the bears!__',
+    '2': '__Ok, that was easy enough, let\'s step it up__',
+    '3': '__Lets make it even harder...__',
+    '4': '__Good luck!__',
 }
 
 
