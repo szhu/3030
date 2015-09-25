@@ -119,7 +119,7 @@ The bug was fixed in the stable version of Google Chrome (version 45.0.2454.101)
 
 This game used to be hosted on the main page of the repo. However, if you have the new version of Google Chrome, the game on this page will not work for you. (Congrats on being bug-free!)
 
-However, for those who still want to experience the horror of what appears to be Chrome tabs crashing on you, [**@locksys**](https://github.com/lockys) made [lockys/3030.js](https://github.com/lockys/3030.js), a script that simulates the "Aw, Snap!" error page. It requires JavaScript, which isn't allowed to run in the readme document at [github.com/szhu/3030](https://github.com/szhu/3030), but you can totally see it in action on this GitHub Pages site.
+However, for those who still want to experience the horror of what appears to be Chrome tabs crashing on you, [**@lockys**](https://github.com/lockys) made [lockys/3030.js](https://github.com/lockys/3030.js), a script that simulates the "Aw, Snap!" error page. It requires JavaScript, which isn't allowed to run in the readme document at [github.com/szhu/3030](https://github.com/szhu/3030), but you can totally see it in action on this GitHub Pages site.
 
 Happy mazing!
 
