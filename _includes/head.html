@@ -1,0 +1,26 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ "/css/stylesheet.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/github-light.css" | prepend: site.baseurl }}">
+
+  <link rel="stylesheet" href="{{ "/vendor/30.min.css" | prepend: site.baseurl }}">
+  <script src="{{ "/vendor/jquery.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+  <script src="{{ "/vendor/30.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+  <script>
+  $(function() {
+    $('a[href="http://www.stanford.edu/%%30%30"]').breakThisLink();
+  });
+  </script>
+  <style>
+  html { min-width: 795px; }
+  </style>
+</head>

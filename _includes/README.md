@@ -7,7 +7,6 @@ Mouse your way through the map without touching the deadly trees!
 **WARNING:** Do you have important, unsaved work open in other tabs?  
 You need to close this tab RIGHT NOW. Go save your work. Come back. Enjoy!
 
-
 <!-- GAME -->
 
 **Start here… stay with the bears!**
@@ -98,16 +97,29 @@ Here's what it's supposed to look like:
 What's this about?
 ------------------
 
-Currently, Google Chrome and some other apps* [have a bug](https://code.google.com/p/chromium/issues/detail?id=533361) that causes them to crash when trying to understand certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, Chrome tries to understand the link not only when you navigate to it, but also when you hover over links (the trees). That's why causing the hovering over the trees will make Chrome crash.
+### The bug
+
+On Sep 18, 2015, [someone discovered a bug](https://code.google.com/p/chromium/issues/detail?id=533361) in
+Google Chrome and some other apps* that causes them to crash when trying to understand certain `%`-escaped URLs, such as `http://github.com/%%30%30`. Unfortunately, Chrome tries to understand the link not only when you navigate to it, but also when you hover over links (the trees). That's why causing the hovering over the trees will make Chrome crash.
 
 This is not a bug with loading the page at the URL, but with merely translating a URL from a non-standard form to a standard one (canonicalization) – [thanks devs for pointing this out](https://code.google.com/p/chromium/issues/detail?id=533361#c36)!
 
-\* This Chromium bug affects all Chromium-based apps, including:
+\* This Chromium bug actually affected all Chromium-based apps, including:
 
  - [Google Chrome](http://www.google.com/chrome/)
  - [Chromium](https://www.chromium.org/)
  - [Opera](http://www.opera.com/)
  - [Electron ("Atom Shell")](http://electron.atom.io/)-based apps, such as [Atom](https://atom.io/) and [Slack](https://slack.com/)
+
+### The fix
+
+The bug was fixed in the stable version of Google Chrome (version 45.0.2454.101) [on Sep 24, 2015](https://code.google.com/p/chromium/issues/detail?id=533361#c86). If you still have this bug, you should upgrade Google Chrome by selecting the About Google Chrome menu item.
+
+### What about this game?
+
+This game used to be hosted on the main page of the repo. However, if you have the new version of Google Chrome, the game on this page will not work for you. (Congrats on being bug-free!)
+
+However, for those who still want to experience the horror of what appears to be Chrome tabs crashing on you, [**@locksys**](https://github.com/lockys) made [lockys/3030.js](https://github.com/lockys/3030.js), a script that simulates the "Aw, Snap!" error page. It requires JavaScript, which isn't allowed to run in the readme document at [github.com/szhu/3030](https://github.com/szhu/3030), but you can totally see it in action on this GitHub Pages site.
 
 Happy mazing!
 
@@ -115,7 +127,14 @@ Happy mazing!
 Further reading
 ---------------
 
+### Other Games
+
+ - Played this game too many times? [x3030.herokuapp.com](https://x3030.herokuapp.com/) generates a new maze each time!
  - Was this too easy? Are you a masochist? Someone else made this: [linkofdeath.com](http://linkofdeath.com/)
+
+
+### Reception
+
  - See [Hacker News](https://news.ycombinator.com/item?id=10249362) for a lively discussion on whether wrapper apps can be considered native.
  - [The Next Web](http://thenextweb.com/apps/2015/09/21/this-stupid-game-turns-a-major-chrome-bug-into-fun/) calls this game "stupid." No u. We agree that it's fun though.
  - On Reddit, [this](https://www.reddit.com/r/programming/comments/3lqied/3030_a_game/) keeps [being](https://www.reddit.com/r/programming/comments/3lrrtr/google_chromes_3030_the_game/) posted onto r/programming [and deleted for being off-topic](https://www.reddit.com/r/programming/comments/3lrrtr/google_chromes_3030_the_game/cv8se1r).
@@ -134,6 +153,7 @@ The game code in this readme is generated automatically from the files in [`src`
   Recommended: use Sublime Text and use overwrite mode (⌥⌘O​ on Mac).
 - To edit the generator code, including which pictures appear, edit [`src/game.py`](src/game.py).
 - When you're done editing the source files: `cd src` and `make`!
+- Note: The project uses a modified version of  [lockys/3030.js](https://github.com/lockys/3030.js). I'm working on sending a PR soon. If you want to help out, please let me know!
 
 
 Credits & License
