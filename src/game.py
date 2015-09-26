@@ -10,25 +10,16 @@ def get_between_sep(fname, sep):
     assert len(parts) == 3
     return parts
 
-
 table = {
-    ' ': ' 🍫       ',
-    '.': '[🌲][dead]',
+    ' ': ' 🍫        ',
+    '.': '[🌲][dead] ',
 }
 
-
-def make_game_iter(iter):
-    for in_line in iter:
-        in_line = in_line.rstrip('\n')
-        out_line = ' '.join(table[char] for char in in_line)
-        yield out_line + '  '
-
-    yield '[dead]: http://github.com/%%30%30'
-
-
 def make_game(fname):
-    return '\n'.join(make_game_iter(open(fname, 'rb')))
-
+    gmap = open(fname, 'rb').read()
+    gmap = gmap.replace(' ', table[' '])
+    gmap = gmap.replace('.', table['.'])
+    return ' \n'.join(gmap.split('\n')) + '[dead]: http://github.com/%%30%30'
 
 def main(game_fname, doc_fname):
     doc_parts = get_between_sep(doc_fname, SEP)
@@ -40,11 +31,9 @@ def main(game_fname, doc_fname):
     return 0
 
 
-##
-
-
 class ProgramError(Exception):
     pass
+
 
 def run():
     from sys import argv, stderr
